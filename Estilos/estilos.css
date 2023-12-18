@@ -34,7 +34,7 @@
     /* height: 50vh; */
     text-align: center;
     padding: 2rem;
-
+    border-radius: 0.7rem 0.7rem 0 0 ;
 }
 
 .titulo{
@@ -93,6 +93,7 @@
 
 .ContenedorUsuarioDescripcion{
     background-color: white;
+    border-radius: 0 0 0.7rem 0.7rem;
 
 }
 .ContenedorUsuario{
@@ -167,7 +168,7 @@ strong{
     } */
     .ContenedorCard{
         width: 100%;
-        height: 100vh;
+        height: 100%;
         border-radius: unset;
     }
     
@@ -191,6 +192,8 @@ strong{
 
     .ContenedorUsuarioDescripcion{
         height: 48%;
+        border-radius: unset;
+        padding-top: 2rem;
     }
 
     .ContenedorMail{
@@ -199,5 +202,6 @@ strong{
     
     .ContenedorSlogan{
         height: 21%;
+        border-radius: unset;
     }
   }
