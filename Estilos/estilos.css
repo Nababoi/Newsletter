@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.ContenedorPadre{
+    background-image: url("../Img/Background.png");
+    height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContenedorCard{
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 30%;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.ContenedorSlogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+    color: white;
+    background-color: rgb(55, 55, 210);
+    background-image: url("../Img/Pattern.png");
+    background-size: cover;
+    /* padding: 10rem 5rem; */
+    /* height: 50vh; */
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.titulo{
+    font-size: 1.5rem;
+    /* letter-spacing: 0.1rem; */
+    font-weight: 100;
+
+}
+
+.ContenedorMail{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 2rem 0;
+
+}
+
+.textoPrimero{
+    color: rgb(84, 78, 78);
+    text-align: center;
+    padding: 0 1rem;
+}
+.textoSegundo{
+    color: gray;
+    padding: 0 1rem;
+    /* text-align: center; */
+}
+.botonMail{
+    color: wheat;
+    background-color: blue;
+    border-radius: 0.7rem;
+    border: none;
+    padding: 1rem;
+    font-weight: 800;
+}
+.ContenedorInputBoton{
+    display: flex;
+    gap: 0.5rem;
+    margin: 1.3rem 0 1rem 0;
+    padding: 0.1rem 0.8rem 0rem 0.8rem;
+}
+.inputMail{
+    flex-grow: 2;
+    background-color: rgba(190, 190, 190, 0.596);
+    border: 2px solid rgb(169, 169, 169);
+    border-radius: 0.5rem;
+}
+.botonMail{
+    flex-grow: 1;
+    /* margin: 1rem; */
+}
+/* .ContenedorSlogan, .ContenedorCard{
+    width: 50%;
+    box-sizing: border-box;
+} */
+
+.ContenedorUsuarioDescripcion{
+    background-color: white;
+
+}
+.ContenedorUsuario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+strong{
+    color: black !important;
+}
+.TextoFoto{
+    color: rgb(84, 78, 78);
+}
+
+.TextoDescripcion{
+    color: rgb(84, 78, 78);
+    text-align: center;
+    padding: 2rem;
+}
+/* Tablet */
+
+@media only screen and (min-width: 361px) and (max-width: 768px) {
+
+
+    /* .ContenedorPadre{
+        height: unset;
+    } */
+
+    .ContenedorCard{
+        width: 40%;
+        height: 90vh;
+        border-radius: 1rem;
+    }
+
+    .titulo{
+        font-size: 1rem;
+    }
+
+    .textoPrimero{
+        font-size: 0.8rem;
+    }
+
+    .textoSegundo{
+        font-size: 0.8rem;
+    }
+
+    .ContenedorInputBoton{
+        height: 2.1rem;
+    }
+
+    .botonMail{
+        flex-grow: 20;
+        padding: 0;
+    }
+
+    .ContenedorUsuario{
+        font-size: 0.9rem;
+    }
+
+    .TextoDescripcion{
+        font-size: 0.8rem;
+    }
+
+  }
+
+  @media only screen and (max-width: 425px) {
+    
+    .ContenedorPadre{
+        height: unset;
+    }
+    .ContenedorCard{
+        width: 100vw;
+        height: unset;
+        border-radius: unset;
+    }
+    
+    .titulo{
+        font-size: 1.2rem;
+    }
+
+    .textoPrimero, .textoSegundo, .TextoDescripcion, .TextoFoto{
+        font-size: 0.9rem
+    }
+
+    .botonMail{
+        padding: 0.4rem;
+        flex-grow: 1;
+
+    }
+
+    .TextoDescripcion{
+        padding: 1rem 2rem 1rem 2rem;
+    }
+  }
