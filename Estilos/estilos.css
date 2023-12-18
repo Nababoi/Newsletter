@@ -17,7 +17,7 @@
     justify-content: center;
     /* align-items: center; */
     flex-direction: column;
-    width: 30%;
+    width: 25rem;
     border-radius: 0.5rem;
     overflow: hidden;
 }
@@ -124,7 +124,7 @@ strong{
     } */
 
     .ContenedorCard{
-        width: 40%;
+        width: 25rem;
         height: 90vh;
         border-radius: 1rem;
     }
@@ -146,7 +146,7 @@ strong{
     }
 
     .botonMail{
-        flex-grow: 20;
+        flex-grow: 2;
         padding: 0;
     }
 
